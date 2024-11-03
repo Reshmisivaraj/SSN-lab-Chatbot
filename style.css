@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f1c69a; /* Light Lavender */
+    background-size: cover;
+    background-attachment: relative;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff; /* White background */
+}
+
+.intro-box {
+    background-color:#f9f9ff; /* Light Grey-Lavender for intro section */
+    text-align: center;
+}
+
+.labs {
+    padding: 20px;
+    background-color: #f9f9ff; /* Light Grey-Lavender for consistency */
+    border-bottom: 1px solid #e0e0e0; /* Soft Grey border */
+    text-align: left;
+}
+
+.intro-box h2 {
+    font-size: 24px;
+    background-color: #f1c69a; /* Light Grey-Purple for heading */
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.chat-message {
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 15px;
+    max-width: 75%;
+    line-height: 1.4;
+}
+
+.bot {
+    background-color: rgb(247, 243, 243); /* Light Grey-Purple for bot messages */
+    color: black
+    ; /* Dark Indigo for bot text */
+    align-self: flex-start;
+}
+
+.user {
+    background-color: black; /* Deep Purple for user messages */
+    color: white;
+    align-self: flex-end;
+    display: inline-block;
+}
+
+#input-container {
+    display: flex;
+    padding: 15px;
+    background-color: #f9f9ff; /* Light Grey-Lavender for input area */
+    border-top: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: black; /* Vibrant Purple for focus effect */
+}
+
+button {
+    padding: 12px 20px;
+    background-color:  #f1c69a;; /* Deep Purple for primary action buttons */
+    color: black;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #4b0082; /* Darker Purple on hover */
+}
+
+/* Scrollbar styling */
+#chat-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-box::-webkit-scrollbar-track {
+    background-color: #f1f1f5; /* Light grey for scrollbar track */
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background-color: #b39ddb; /* Soft purple-grey for scrollbar thumb */
+    border-radius: 10px;
+}
+
+.search-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+@media (max-width: 480px) {
+    .chat-container {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
