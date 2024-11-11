@@ -57,7 +57,7 @@ const labsData = {
 
 
 "DSP LAB":{components:["ADSP BF 533 EZ", "ADSP VI - 2181", "Computers Core i5", "Digital Multimeter", "Digital Storage Oscilloscope", "DSK TMS320C6416 Kit", "DSK TMS320C6713 Kit", "DSP Color Camera", "DSP Processor - 2181", "DSP Processor - 5416", "Function Generator", "LAN Trainer Kits", "MICRO 50eb kit", "NVIDIA Jetson Xavier NX Development Board", "OMAPL 138/6748 Kit", "Printer (Laser)", "RP LIDAR A2M8 360 Degree 12 Meter Range Scanner", "Server(Intel Xeon Six Core)", "TMS32063X", "Wireless LAN Trainer Kits"
-],location:"right wing"},
+],location:"Left wing, ground floor "},
 
 
 "MICROPROCESSORS AND EMBEDDED SYSTEMS LAB":{components:["ADC Interface Board with MUX-12 bit",
