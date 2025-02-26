@@ -246,7 +246,7 @@ function similarityScore(input, option) {
 
 
 function findClosestMatch(input, options) {
-    const threshold = 0.4; 
+    const threshold = 0.6; 
     let bestMatch = '';
     let bestScore = 0;
 
